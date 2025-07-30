@@ -257,9 +257,9 @@ const MarkdownEditor: React.FC<MarkdownEditorProps> = ({
       <div style={{ minHeight: '400px', padding: '16px' }}>
         <EditorContent 
           editor={editor} 
+          className="tiptap"
           style={{ 
-            minHeight: '350px',
-            outline: 'none'
+            minHeight: '350px'
           }}
         />
       </div>
